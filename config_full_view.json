@@ -1,0 +1,13 @@
+{
+  "fields": [
+    { "path": "full_name", "type": "string", "required": true },
+    { "path": "current_company", "from": "experience[0].company", "type": "string" },
+    { "path": "current_title", "from": "experience[0].title", "type": "string" },
+    { "path": "work_experience", "from": "experience", "type": "object[]" },
+    { "path": "education", "from": "education", "type": "object[]" },
+    { "path": "links", "from": "links", "type": "object" },
+    { "path": "provenance", "from": "provenance", "type": "object[]" }
+  ],
+  "include_confidence": true,
+  "on_missing": "null"
+}

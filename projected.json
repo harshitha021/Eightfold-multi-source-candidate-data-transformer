@@ -1,0 +1,248 @@
+{
+  "full_name": "Matthew Carpenter",
+  "full_name_confidence": 0.741,
+  "current_company": "IBM",
+  "current_company_confidence": 0.741,
+  "current_title": "Senior Data Analyst",
+  "current_title_confidence": 0.741,
+  "work_experience": [
+    {
+      "company": "IBM",
+      "title": "Senior Data Analyst",
+      "start": "2021-01",
+      "end": null,
+      "summary": null
+    },
+    {
+      "company": "IBM",
+      "title": "Data Analyst",
+      "start": "2019-01",
+      "end": "2021-01",
+      "summary": null
+    }
+  ],
+  "work_experience_confidence": 0.741,
+  "education": [
+    {
+      "institution": "University of Texas at Austin",
+      "degree": "B.S. in Statistics",
+      "field": null,
+      "end_year": null
+    }
+  ],
+  "education_confidence": 0.741,
+  "links": {
+    "linkedin": null,
+    "github": "https://github.com/mcarpenter-data",
+    "portfolio": "https://mcarpenter.dev",
+    "other": []
+  },
+  "links_confidence": 0.741,
+  "provenance": [
+    {
+      "field": "full_name",
+      "source": "recruiter_csv",
+      "method": "structured_field"
+    },
+    {
+      "field": "emails",
+      "source": "recruiter_csv",
+      "method": "structured_field",
+      "value": "matthew.carpenter3079@test.org"
+    },
+    {
+      "field": "emails",
+      "source": "resume_pdf",
+      "method": "text_extraction",
+      "value": "m.carpenter.work@gmail.com"
+    },
+    {
+      "field": "phones",
+      "source": "recruiter_csv",
+      "method": "structured_field",
+      "value": "+12025552364",
+      "cross_source_agreement": true
+    },
+    {
+      "field": "location.city",
+      "source": "resume_pdf",
+      "method": "text_extraction"
+    },
+    {
+      "field": "location.region",
+      "source": "resume_pdf",
+      "method": "text_extraction"
+    },
+    {
+      "field": "location.country",
+      "source": "resume_pdf",
+      "method": "heuristic_inference"
+    },
+    {
+      "field": "links.github",
+      "source": "github_api",
+      "method": "profile_field"
+    },
+    {
+      "field": "links.portfolio",
+      "source": "github_api",
+      "method": "profile_field"
+    },
+    {
+      "field": "headline",
+      "source": "recruiter_csv",
+      "method": "structured_field"
+    },
+    {
+      "field": "skills",
+      "source": "resume_pdf",
+      "method": "resume_stated",
+      "value": "python"
+    },
+    {
+      "field": "skills",
+      "source": "github_api",
+      "method": "repo_language_derived",
+      "value": "python"
+    },
+    {
+      "field": "skills",
+      "source": "github_api",
+      "method": "repo_topic_derived",
+      "value": "python"
+    },
+    {
+      "field": "skills",
+      "source": "resume_pdf",
+      "method": "resume_stated",
+      "value": "sql"
+    },
+    {
+      "field": "skills",
+      "source": "github_api",
+      "method": "repo_language_derived",
+      "value": "sql"
+    },
+    {
+      "field": "skills",
+      "source": "github_api",
+      "method": "repo_topic_derived",
+      "value": "sql"
+    },
+    {
+      "field": "skills",
+      "source": "resume_pdf",
+      "method": "resume_stated",
+      "value": "tableau"
+    },
+    {
+      "field": "skills",
+      "source": "github_api",
+      "method": "repo_topic_derived",
+      "value": "tableau"
+    },
+    {
+      "field": "skills",
+      "source": "resume_pdf",
+      "method": "resume_stated",
+      "value": "ab-testing"
+    },
+    {
+      "field": "skills",
+      "source": "github_api",
+      "method": "repo_topic_derived",
+      "value": "ab-testing"
+    },
+    {
+      "field": "skills",
+      "source": "resume_pdf",
+      "method": "resume_stated",
+      "value": "etl"
+    },
+    {
+      "field": "skills",
+      "source": "github_api",
+      "method": "repo_topic_derived",
+      "value": "etl"
+    },
+    {
+      "field": "skills",
+      "source": "resume_pdf",
+      "method": "resume_stated",
+      "value": "data-visualization"
+    },
+    {
+      "field": "skills",
+      "source": "resume_pdf",
+      "method": "resume_stated",
+      "value": "statistics"
+    },
+    {
+      "field": "skills",
+      "source": "github_api",
+      "method": "repo_topic_derived",
+      "value": "statistics"
+    },
+    {
+      "field": "skills",
+      "source": "github_api",
+      "method": "repo_language_derived",
+      "value": "javascript"
+    },
+    {
+      "field": "skills",
+      "source": "github_api",
+      "method": "repo_language_derived",
+      "value": "shell"
+    },
+    {
+      "field": "skills",
+      "source": "github_api",
+      "method": "repo_topic_derived",
+      "value": "cli"
+    },
+    {
+      "field": "skills",
+      "source": "github_api",
+      "method": "repo_topic_derived",
+      "value": "reporting"
+    },
+    {
+      "field": "skills",
+      "source": "github_api",
+      "method": "repo_topic_derived",
+      "value": "automation"
+    },
+    {
+      "field": "skills",
+      "source": "github_api",
+      "method": "repo_topic_derived",
+      "value": "react"
+    },
+    {
+      "field": "skills",
+      "source": "github_api",
+      "method": "repo_topic_derived",
+      "value": "finance"
+    },
+    {
+      "field": "experience",
+      "source": "resume_pdf",
+      "method": "text_extraction",
+      "value": "Senior Data Analyst"
+    },
+    {
+      "field": "experience",
+      "source": "resume_pdf",
+      "method": "text_extraction",
+      "value": "Data Analyst"
+    },
+    {
+      "field": "education",
+      "source": "resume_pdf",
+      "method": "text_extraction",
+      "value": "B.S. in Statistics, University of Texas at Austin"
+    }
+  ],
+  "provenance_confidence": 0.741
+}
