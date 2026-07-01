@@ -1,0 +1,25 @@
+{
+  "full_name": "Matthew Carpenter",
+  "full_name_confidence": 0.741,
+  "current_company": "IBM",
+  "current_company_confidence": 0.741,
+  "current_title": "Senior Data Analyst",
+  "current_title_confidence": 0.741,
+  "work_experience": [
+    {
+      "company": "IBM",
+      "title": "Senior Data Analyst",
+      "start": "2021-01",
+      "end": null,
+      "summary": null
+    },
+    {
+      "company": "IBM",
+      "title": "Data Analyst",
+      "start": "2019-01",
+      "end": "2021-01",
+      "summary": null
+    }
+  ],
+  "work_experience_confidence": 0.741
+}
