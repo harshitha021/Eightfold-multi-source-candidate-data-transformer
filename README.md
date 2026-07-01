@@ -64,6 +64,14 @@ python transform.py \
   --config config_experience.json \
   --out output/experience_view.json
 ```
+```bash
+python transform.py \
+--csv data/recruiter.csv \
+--resume data/matthew_carpenter_resume.pdf \
+--github data/github_matthew_carpenter.json \
+--config config_full_view.json -\
+-out output/full_view.json
+```
 The `--config` flag reshapes the output (field subset, renaming, per-field
 normalization, missing-value behavior) **without any code changes** — same
 engine, different view. Three example configs are included:
